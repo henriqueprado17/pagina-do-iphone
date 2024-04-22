@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*para tirar os pontinhos*/
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#photoIphone13 {
+    @media(max-width: 420px) {
+        width: 10rem
+    }
+
+}
+#photoMainIphone{
+    @media (max-width:420px) {
+        width:15rem
+    }
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+
+
+body {
+    background: #e8e6e7;
+width: 100%;
+}
+
+header {
+
+    padding: 20px 70px;
+    background: #1d1d1f;
+    width: 100%;
+}
+
+.navegation {
+    display: flex;
+    align-items: center;
+    /*pra ficar cada um nas estremidades*/
+    justify-content: space-between;
+
+}
+
+.navegation .logo {
+    width: 50px;
+}
+
+.navegation ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+li {
+    right: 50px;
+}
+
+.navegation ul li a {
+    color: #888;
+    /*tamanho da fonte */
+    font-weight: 600;
+    padding-bottom: 4px;
+    transition: all 0, 5s ease-in-out;
+}
+
+/*efeito ao o assar o mouse por cima lindo lindo lindo */
+.navegation ul li a:hover {
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+.navegation .check {
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+
+
+
+.main-text img {
+    width: 15rem;
+    margin-bottom: 3vh;
+}
+
+.main-text h3 {
+    font-size: 3.5rem;
+    margin-top: 2rem;
+}
+
+.main-text p {
+    margin-bottom: 1.5rem;
+}
+
+.main-text h6 {
+    color: #999;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main-text .botom {
+    padding: 10px 25px;
+    background-color: #0071e3;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+
+.main-text .botom:hover {
+    opacity: .85;
+}
+
+.main-text .text h5 {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 2rem;
+}
+
+.main-text .contente {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-text .contente span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px #888;
+    transition: all 0, 5s;
+}
+
+.main-text .contente span:hover {
+    opacity: .80;
+}
+
+#green {
+    background: #2a582a;
+}
+
+#blue {
+    background: #1342c5;
+}
+
+#pink {
+    background: rgb(209, 153, 162);
+}
+
+#red {
+    background: red;
+}
+
+#white {
+    background: #fcfcfc;
+}
+
+#black {
+    background: black
+}
+
+.main-img {
+    transition: all 1s ease;
+    z-index: 100;
+}
+
+.main-img img {
+    width: 300px;
+    /*trasform rotate para virar a img */
+    transform: rotate(-7deg);
+}
+
+.circulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 106%;
+    height: 100%;
+    background: 2a582a;
+    clip-path: circle(700px at right 900px);
+}
